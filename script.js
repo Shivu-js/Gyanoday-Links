@@ -3,7 +3,7 @@ document.getElementById('share-btn').addEventListener('click', (e) => {
     if (navigator.share) {
         navigator.share({
             title: 'Gyanoday Ke Guruji',
-            text: 'Gyanoday Ke Guruji | Trust of 26M+ Student on Youtube from UP & Other States Board',
+            text: 'Gyanoday Ke Guruji | Trust of 26M+ Student on Youtube from UP & Other States Board \n',
             url: window.location.href
         }).then(() => {
             console.log('Shared successfully!');
